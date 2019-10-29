@@ -35,3 +35,9 @@ section {
   width:30%;
   font-style: bold;
 }
+
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
