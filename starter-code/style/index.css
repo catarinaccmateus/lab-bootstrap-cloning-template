@@ -25,3 +25,13 @@ section {
 .indent_text {
   text-indent: 3em;
 }
+
+.bigger_section {
+  height: 20em;
+}
+
+.important_paragraph {
+  padding-bottom: 2em;
+  width:30%;
+  font-style: bold;
+}
