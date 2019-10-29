@@ -7,12 +7,13 @@
   <link rel="stylesheet" type="text/css" href="/starter-code/style/normalize.css">
   <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../starter-code/style/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light test">
-    <h2 class="navbar-brand">Significa</h2>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light space_between">
+    <h2 class="navbar-brand"><img src="images/logo.svg" alt="significa_logo"></h2>
     <ul class="navbar-nav">
       <li class="nav-item"><a class="nav-link" href="">Showcase</a></li>
       <li class="nav-item"><a class="nav-link" href=""> Services</a></li>
@@ -23,20 +24,20 @@
     </ul>
   </nav>
   <section class="container jumbotron bigger_section">
-    <h1 class="row important_paragraph ">Your go-to digital agency</h1>
+    <h1 class="row important_paragraph">Your go-to digital agency</h1>
     <p class="row important_paragraph">Significa is a digital design-led agency mainly focused on Product Development.
   </section>
   </p>
   <section class="container">
-    <div class="row">
-      <div class="col"> <img src="images/2.png" alt="jkjb" class="img-thumbnail"> <br> Oopsie for users
+    <div class="row card-body">
+      <div class="col card"> <img src="images/2.png" alt="jkjb" class="card-img-top"> <br> Oopsie for users
         — Your favourite food, one click away! Business Analysis, Product Management,
         Consultancy & 5 others
       </div>
-      <div class="col"><img src="images/3.png" alt="jkjb" class="img-thumbnail"> <br> Opennode —
+      <div class="col card"><img src="images/3.png" alt="jkjb" class="card-img-top"> <br> Opennode —
         Bitcoin, for everyday.
         UI/UX, Front End, Front End</div>
-      <div class="col"><img src="images/4.png" alt="jkjb" class="img-thumbnail"> <br> AKASHA — Open
+      <div class="col card"><img src="images/4.png" alt="jkjb" class="card-img-top"> <br> AKASHA — Open
         systems to expand our collective mind.
         UI/UX, Front End, Illustration</div>
     </div>
@@ -44,10 +45,9 @@
   </section>
   <section class="container">
     <div class="row">
-      <h3> We build digital products</h3>
-      <p>Having a design-led approach to what we do defines who we are. We take on products from inception to launch,
-        from
-        business model to people's pocket, from wireframe to continuous deployment.</p>
+      <h3 class="col"> We build digital products</h3>
+      <p class="col pb-5">Having a design-led approach to what we do defines who we are. We take on products from inception to launch,
+        from business model to people's pocket, from wireframe to continuous deployment.</p>
     </div>
     <div class="row">
       <div class="col">
@@ -84,39 +84,39 @@
     <br>
     <a href="" class="row justify-content-center">View services</a>
   </section>
-  <section class="bg-dark text-white">
-    <div class="container">
+  <section class="bg-dark text-white bigger_section">
+    <div class="container pt-5">
         <div class="row">
             <div class="col">
               <h3>What's new on Significa Labs</h3>
             </div>
-            <div class="col">
+            <div class="col align-items-center">
               <ul>
                 <li>Automating releases for UI Kits — How to automate release logs and builds for your style guides
                   <br>
-                  <a href="">Tutorial on Medium</a>
+                  <a href="" class="text-white p-3">Tutorial on Medium</a>
                 </li>
                 <li>
                   An iceberg sank the Titanic — But what’s that got to do with text hierarchy?
                   <br>
-                  <a href="">Article on Medium</a>
+                  <a href="" class="text-white p-3">Article on Medium</a>
                 </li>
                 <li>On creating synergies — Sharing without compromising our identity
                   <br>
-                  <a href="">Article on Medium</a></li>
+                  <a href="" class="text-white p-3">Article on Medium</a></li>
               </ul>
               <br>
-              <a href="" class="row indent_text">Enter the Lab</a>
+              <a href="" class="row indent_text text-muted">Enter the Lab</a>
             </div>
           </div>
     </div>
   </section>
   <section class="container">
-    <div class= "row">
+    <div class= "row align-items-center">
       <h3 class="col">Drop by, we're hiring.</h3>
         <p class="col">We are an open-minded, open-hearted team that loves the thrill of creating exciting new projects. Drop us a line if
             you’re passionate and talented to do everything you set your mind to.
-            <br>
+            <br> <br>
           <a href="">View careers</a></p> 
     </div>
   </section>
@@ -127,23 +127,27 @@
   <div class="col"><img src="images/6.png" alt="" class="img-thumbnail"></div>
 </div>
   </section>
-  <footer class="row">
-      <div class="col">Legal © 2019</div>
-      <div class="col"> Say
-          hello@significa.co
-          (+351) 226 001 751</div>
-      <div class="col">
+  <footer class="row m-auto">
+      <div class="col pl-5 text-secondary">Legal © 2019</div>
+      <div class="col pl-5"> Say <br>
+        <div class="text-secondary">hello@significa.com <br>
+          (+351) 226 001 751</div></div>
+      <div class="col pl-5">
           Links
-          Home
-          Showcase
-          Services
-          About
-          Careers
-          Labs
-          Contact</div>
-      <div class="col"> Network
-          Coletiv
-          Adamant</div>
+          <br>
+          <ul class = "list-unstyled"><li"><a href="" class="text-secondary">Home</a></li>
+          <li><a href="" class="text-secondary">Showcase</a></li>
+          <li><a href="" class="text-secondary">Services</a></li>
+          <li><a href="" class="text-secondary">About</a></li>
+          <li><a href="" class="text-secondary">Careers</a></li>
+          <li><a href="" class="text-secondary">Labs</a></li>
+          <li><a href="" class="text-secondary">Contact</a></li></ul>
+          </div>
+      <div class="col"> Network <br>
+        <div class="text-secondary">
+        Coletiv
+        Adamant</div>
+        </div>
       <div class="col">Follow us</div>
   </footer>
   <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
